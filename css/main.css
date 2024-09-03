@@ -107,14 +107,18 @@ ul {
   width: 50%;
 }
 
-.main-1 {
+.why__wrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
+  padding-top: 50px;
 }
 
-.main-2 {
+.why__item {
   width: 50%;
-  padding-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
 }
 
 .orange-color {
@@ -127,6 +131,7 @@ ul {
   color: #5c5c5c;
   font-weight: 700;
   font-size: 28px;
+  padding-top: 15px;
 }
 
 @media screen and (max-width: 1460px) {
