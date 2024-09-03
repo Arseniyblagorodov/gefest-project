@@ -107,11 +107,16 @@ ul {
   width: 50%;
 }
 
+.why__section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .why__wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
   padding-top: 50px;
+  row-gap: 40px;
 }
 
 .why__item {
@@ -121,17 +126,17 @@ ul {
   gap: 14px;
 }
 
-.orange-color {
+.text-accent {
   color: #f7901e;
   font-weight: 700;
-  font-size: 28px;
 }
 
-.black-color {
+.why__item-text {
   color: #5c5c5c;
   font-weight: 700;
   font-size: 28px;
   padding-top: 15px;
+  width: 60%;
 }
 
 @media screen and (max-width: 1460px) {
@@ -149,6 +154,14 @@ ul {
 @media screen and (max-width: 991px) {
   .container {
     width: 700px;
+  }
+
+  .why__wrapper {
+    flex-direction: column;
+  }
+  .why__item ,
+  .why__item-text {
+    width: 100%;
   }
 }
 
